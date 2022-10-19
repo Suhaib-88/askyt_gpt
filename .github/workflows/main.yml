@@ -15,6 +15,6 @@ jobs:
     - uses: actions/checkout@v1
     - name: Build & Push Image
       run: |
-        echo "${{ secrets.DOCKER_PASS }}" | docker login -u "suhaib69696" --password-w2X(d((Td8,Np&k
+        echo "${{ secrets.DOCKER_PASS }}" | docker login -u "suhaib69696" --password-stdin
         docker image build -t suhaib69696/fast_api_24:latest .
         docker push suhaib69696/fast_api_24:latest
