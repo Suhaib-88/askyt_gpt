@@ -1,0 +1,20 @@
+name: Python app
+
+on:
+  push:
+   branches: [ master ]
+  pull_request:
+    branches: [ master ]
+      
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Build & Push Image
+      run: |
+        echo "${{ secrets.DOCKER_PASS }}" | docker login -u "suhaib69696" --password-w2X(d((Td8,Np&k
+        docker image build -t suhaib69696/fast_api_24:latest .
+        docker push suhaib69696/fast_api_24:latest
