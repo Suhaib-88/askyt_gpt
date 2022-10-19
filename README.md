@@ -3,6 +3,10 @@
 ## Task 1 & 2 in pdf
 
 
+## Task 3
+
+![Screenshot 2022-10-20 032427](https://user-images.githubusercontent.com/73020771/196813051-0d6771b1-c5fe-4902-b980-519b279f1a9d.png)
+
 
 ## Task 4
 
