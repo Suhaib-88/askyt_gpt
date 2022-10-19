@@ -4,6 +4,7 @@
 
 
 ## Task 3
+Pushed docker image to: suhaib69696/fastapi-webapp
 
 ![Screenshot 2022-10-20 032427](https://user-images.githubusercontent.com/73020771/196813051-0d6771b1-c5fe-4902-b980-519b279f1a9d.png)
 
