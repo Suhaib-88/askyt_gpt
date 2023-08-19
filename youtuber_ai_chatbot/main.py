@@ -19,8 +19,10 @@ def index():
     def clear_submit():
         st.session_state["submit"] = False
 
-    st.set_page_config(page_title="YoutuberGPT", page_icon="🤖", layout="wide")
-    st.header("🤖YoutuberGPT")
+    st.set_page_config(page_title="AskYT", page_icon="🤖", layout="wide")
+    st.header("AskYT")
+    st.markdown("Made by [Suhaib](https://github.com/Suhaib-88) and [Ayush](https://github.com/ayush31dec)")
+        
     sidebar()
 
     if 'responses' not in st.session_state:
@@ -46,7 +48,6 @@ def index():
     response_container = st.container()
     # container for text box
     textcontainer = st.container()
-
     with videocontainer:
         video_url = st.text_input("YouTube Video Url:", on_change=clear_submit)
         if video_url != st.session_state['video_url']:
