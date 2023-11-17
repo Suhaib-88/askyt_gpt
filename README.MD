@@ -1,5 +1,5 @@
 # AskYt
-![ferd](www.github.com/?raw=true)
+![ferd](file:///C:/Users/suhai/Downloads/Enter%20Youtube%20video%20link%20here%20(2).png)
 
 ## Project Description
 This is a YouTube chatbot that uses OpenAI's GPT-3 language model to generate conversational responses. The chatbot is trained on the transcripts of a YouTuber's videos and can provide conversational responses to user's queries.
