@@ -1,6 +1,4 @@
-#AskYt
-
-
+# AskYt
 
 ## Project Description
 This is a YouTube chatbot that uses OpenAI's GPT-3 language model to generate conversational responses. The chatbot is trained on the transcripts of a YouTuber's videos and can provide conversational responses to user's queries.
